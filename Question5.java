@@ -6,7 +6,6 @@ public class Question5
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter number of integers: ");
     int num = in.nextInt();
     int modeNum = 0;
     int mode = 0;
@@ -26,6 +25,6 @@ public class Question5
         modeNum = array.get(i);
       }
     }
-    System.out.println("The mode number is " + modeNum + " and the mode is " + mode);
+    System.out.println(modeNum);
   }
 }
